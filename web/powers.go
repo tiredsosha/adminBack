@@ -261,6 +261,11 @@ func powerPark(c *gin.Context) {
 		// 	}
 		// }()
 
+		go func() {
+			protocols.SendUdp("10.1.5.24", 8010, "start")
+			protocols.SendUdp("10.1.6.21", 8010, "start")
+		}()
+
 	case "off":
 
 		command := "f"
@@ -287,6 +292,11 @@ func powerPark(c *gin.Context) {
 				map[string]any{"ip": "172.16.3.76", "command": command},
 			), 2,
 			)
+		}()
+
+		go func() {
+			protocols.SendUdp("10.1.5.24", 8010, "stop")
+			protocols.SendUdp("10.1.6.21", 8010, "stop")
 		}()
 
 	case "restart":
