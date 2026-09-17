@@ -1,69 +1,69 @@
 preshow:
   ip: 10.8.1.11
-  mac: CC:28:AA:D0:38:D0
+  mac: BC:FC:E7:B4:84:9B
 adminStructure:
   ip: 10.8.2.12
-  mac: 34:5A:60:E8:1E:DA
+  mac: BC:FC:E7:B4:84:2D
 molivduls:
   ip: 10.8.2.11
-  mac: 34:5A:60:E8:1E:DD
+  mac: BC:FC:E7:B4:83:43
 army:
   ip: 10.8.3.11
-  mac: 34:5A:60:E8:1E:D9
+  mac: 10:7C:61:B5:6D:57
 tradPath:
   ip: 10.8.4.11
-  mac: A0:AD:9F:D1:CB:9B
+  mac: 10:7C:61:B5:6E:24
 christians:
   ip: 10.8.5.11
-  mac: 34:5A:60:E8:1F:05
+  mac: BC:FC:E7:B4:84:8E2
 bishops:
   ip: 10.8.5.12
-  mac: A0:AD:9F:D4:C3:18
+  mac: BC:FC:E7:B4:83:B3
 chirchStaff:
   ip: 10.8.5.13
-  mac: A0:AD:9F:D4:C2:9B
+  mac: BC:FC:E7:B4:82:BF
 arc:
   ip: 10.8.6.11
-  mac: A0:AD:9F:D3:16:DF
+  mac: 10:7C:61:B5:6F:19
 pilgrimage:
   ip: 10.8.7.12
   mac: A0:AD:9F:D1:CB:63
 radzivilProjectors:
   ip: 10.8.7.11
-  mac: A0:AD:9F:D4:C3:4C
+  mac: BC:FC:E7:B4:84:CB
 radzivilTouch:
   ip: 10.8.7.13
-  mac: A0:AD:9F:D4:C4:5E
+  mac: BC:FC:E7:B4:84:BE
 gaziboTouch1:
   ip: 10.8.8.11
-  mac: 34:5A:60:E8:1F:0A
+  mac: BC:FC:E7:B4:83:B2
 gaziboTouch2:
   ip: 10.8.8.12
-  mac: A0:AD:9F:D4:C3:90
+  mac: BC:FC:E7:B4:83:30
 gaziboTouch3:
   ip: 10.8.8.13
-  mac: A0:AD:9F:D4:C3:91
+  mac: BC:FC:E7:B4:83:21
 gaziboTouch4:
   ip: 10.8.8.14
-  mac: A0:AD:9F:D4:C3:92
+  mac: BC:FC:E7:B4:84:80
 gaziboProjector:
   ip: 10.8.8.15
-  mac: A0:AD:9F:D4:C3:91
+  mac: 10:7C:61:B5:6F:0B
 dayToDay:
   ip: 10.8.9.11
-  mac: A0:AD:9F:D4:C4:13
+  mac: 10:7C:61:B5:6E:25
 agroCulture:
   ip: 10.8.10.11
-  mac: A0:AD:9F:D1:CB:8C
+  mac: BC:FC:E7:B4:83:F9
 heritage:
   ip: 10.8.11.11
-  mac: 34:5A:60:E8:1E:DF
+  mac: 10:7C:61:B5:6D:14
 vladimirBook:
   ip: 10.8.12.11
-  mac: A0:AD:9F:D4:C4:61
+  mac: BC:FC:E7:B4:84:10
 lastDecades:
   ip: 10.8.12.12
-  mac: 34:5A:60:E8:1F:0F
+  mac: BC:FC:E7:B4:84:1E
 bizantineSound:
-  ip: 10.8.0.12
-  mac: 34:5A:60:E8:1F:0F
+  ip: 10.8.0.202
+  mac: BC:FC:E7:B4:82:E9
