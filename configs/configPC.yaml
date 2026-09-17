@@ -1,168 +1,69 @@
-entrance:
-  ip: 10.8.2.11
+preshow:
+  ip: 10.8.1.11
   mac: CC:28:AA:D0:38:D0
-germanPlans:
-  ip: 10.8.3.11
+adminStructure:
+  ip: 10.8.2.12
   mac: 34:5A:60:E8:1E:DA
-germanWarLed:
-  ip: 10.8.3.12
+molivduls:
+  ip: 10.8.2.11
   mac: 34:5A:60:E8:1E:DD
-germanWarTouch:
-  ip: 10.8.3.13
+army:
+  ip: 10.8.3.11
   mac: 34:5A:60:E8:1E:D9
-statistics:
-  ip: 10.8.3.14
-  mac: A0:AD:9F:D1:CB:9B
-germanTV:
+tradPath:
   ip: 10.8.4.11
-  mac: 34:5A:60:E8:1F:05
-familyLed:
+  mac: A0:AD:9F:D1:CB:9B
+christians:
   ip: 10.8.5.11
-  mac: A0:AD:9F:D4:C3:18
-familyMother:
-  ip: 10.8.5.16
-  mac: A0:AD:9F:D4:C2:9B
-familyFather:
-  ip: 10.8.5.15
-  mac: A0:AD:9F:D3:16:DF
-familyDaugther:
-  ip: 10.8.5.14
-  mac: A0:AD:9F:D1:CB:63
-familySon:
-  ip: 10.8.5.13
-  mac: A0:AD:9F:D4:C3:4C
-familyKids:
+  mac: 34:5A:60:E8:1F:05
+bishops:
   ip: 10.8.5.12
-  mac: A0:AD:9F:D4:C4:5E
-hijacking:
+  mac: A0:AD:9F:D4:C3:18
+chirchStaff:
+  ip: 10.8.5.13
+  mac: A0:AD:9F:D4:C2:9B
+arc:
   ip: 10.8.6.11
-  mac: 34:5A:60:E8:1F:0A
-gazvagen:
-  ip: 10.8.6.12
-  mac: A0:AD:9F:D4:C3:90
-kids:
-  ip: 10.8.6.13
-  mac: A0:AD:9F:D3:16:30
-izba:
-  ip: 10.8.6.15
-  mac: A0:AD:9F:D4:C3:51
-burnedLand:
-  ip: 10.8.6.14
-  mac: A0:AD:9F:D4:C4:13
-burnedTouch:
-  ip: 10.8.6.16
-  mac: A0:AD:9F:D1:CB:8C
-prisonMap:
-  ip: 10.8.6.17
-  mac: 34:5A:60:E8:1E:DF
-prisonBox:
-  ip: 10.8.6.18
-  mac: A0:AD:9F:D4:C4:61
-nari:
-  ip: 10.8.6.19
-  mac: 34:5A:60:E8:1F:0F
-birds:
-  ip: 10.8.7.11
-  mac: A0:AD:9F:8C:51:F5
-boy:
+  mac: A0:AD:9F:D3:16:DF
+pilgrimage:
   ip: 10.8.7.12
-  mac: A0:AD:9F:8C:51:E1
-boyTouch:
+  mac: A0:AD:9F:D1:CB:63
+radzivilProjectors:
+  ip: 10.8.7.11
+  mac: A0:AD:9F:D4:C3:4C
+radzivilTouch:
   ip: 10.8.7.13
-  mac: A0:AD:9F:D4:C3:4D
-carriagePlatform:
+  mac: A0:AD:9F:D4:C4:5E
+gaziboTouch1:
+  ip: 10.8.8.11
+  mac: 34:5A:60:E8:1F:0A
+gaziboTouch2:
+  ip: 10.8.8.12
+  mac: A0:AD:9F:D4:C3:90
+gaziboTouch3:
+  ip: 10.8.8.13
+  mac: A0:AD:9F:D4:C3:91
+gaziboTouch4:
+  ip: 10.8.8.14
+  mac: A0:AD:9F:D4:C3:92
+gaziboProjector:
+  ip: 10.8.8.15
+  mac: A0:AD:9F:D4:C3:91
+dayToDay:
   ip: 10.8.9.11
-  mac: A0:AD:9F:D3:16:E1
-carriageCabinet:
-  ip: 10.8.9.15
-  mac: A0:AD:9F:D4:C4:4C
-carriageGirl:
-  ip: 10.8.9.14
-  mac: A0:AD:9F:D3:18:9A
-carriageOfficer:
-  ip: 10.8.9.13
-  mac: A0:AD:9F:D4:C3:12
-carriageTranslucent:
-  ip: 10.8.9.12
-  mac: 34:5A:60:E8:1E:D8
-keningMarket:
-  ip: 10.8.9.16
-  mac: A0:AD:9F:D4:C4:2F
-keningGirl:
-  ip: 10.8.9.17
-  mac: A0:AD:9F:D4:C4:5A
-keningLetters:
-  ip: 10.8.9.18
-  mac: A0:AD:9F:D4:C4:22
-flatDaugher:
+  mac: A0:AD:9F:D4:C4:13
+agroCulture:
   ip: 10.8.10.11
-  mac: A0:AD:9F:D1:CB:7F
-flatWindow:
-  ip: 10.8.10.14
-  mac: A0:AD:9F:D4:C4:39
-flatBoxLeft:
-  ip: 10.8.10.12
-  mac: A0:AD:9F:D4:C4:19
-flatBoxRight:
-  ip: 10.8.10.13
-  mac: A0:AD:9F:D4:C4:53
-leningrad:
-  ip: 10.8.10.15
-  mac: 34:5A:60:E8:1F:11
-culturePiano:
+  mac: A0:AD:9F:D1:CB:8C
+heritage:
   ip: 10.8.11.11
-  mac: A0:AD:9F:D3:17:B8
-cultureKhabensky:
-  ip: 10.8.11.12
-  mac: 34:5A:60:E8:1E:E1
-cultureTouch:
-  ip: 10.8.11.13
-  mac: A0:AD:9F:D4:C4:2A
-europe:
+  mac: 34:5A:60:E8:1E:DF
+vladimirBook:
   ip: 10.8.12.11
-  mac: 34:5A:60:E8:1F:0E
-europeMap:
+  mac: A0:AD:9F:D4:C4:61
+lastDecades:
   ip: 10.8.12.12
-  mac: 34:5A:60:E8:1E:DE
-europeFather:
-  ip: 10.8.12.13
-  mac: A0:AD:9F:D2:79:10
-europeScale:
-  ip: 10.8.12.14
-  mac: A0:AD:9F:D4:C4:6C
-europeHolo:
-  ip: 10.8.12.15
-  mac: A0:AD:9F:D4:C3:5B
-europeCinema:
-  ip: 10.8.12.16
-  mac: A0:AD:9F:D4:C3:17
-japanHologram:
-  ip: 10.8.13.13
-  mac: A0:AD:9F:D4:C4:20
-photosLeft:
-  ip: 10.8.13.15
-  mac: A0:AD:9F:D4:C3:1C
-photosRight:
-  ip: 10.8.13.14
-  mac: A0:AD:9F:D4:C3:57
-japanMap:
-  ip: 10.8.13.11
-  mac: 34:5A:60:E8:1E:D7
-japanTranslucent:
-  ip: 10.8.13.12
-  mac: 34:5A:60:E8:1E:C9
-japanSon:
-  ip: 10.8.13.16
-  mac: A0:AD:9F:D2:78:D7
-nur:
-  ip: 10.8.14.11
-  mac: 34:5A:60:E8:1F:0C
-court:
-  ip: 10.8.14.14
-  mac: A0:AD:9F:D3:16:36
-nurTouchLeft:
-  ip: 10.8.14.12
-  mac: A0:AD:9F:D4:C4:60
-nurTouchRight:
-  ip: 10.8.14.13
-  mac: A0:AD:9F:D4:C4:5F
+  mac: 34:5A:60:E8:1F:0F
+bizantineSound:
+  ip: 10.8.0.12
+  mac: 34:5A:60:E8:1F:0F

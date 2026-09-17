@@ -156,7 +156,7 @@ func powerFire(c *gin.Context) {
 
 func powerZone(c *gin.Context) {
 	var data JsonCommand
-	command := "0"
+	// command := "0"
 
 	// Bind JSON and validate
 	if err := c.ShouldBindJSON(&data); err != nil {
@@ -168,12 +168,12 @@ func powerZone(c *gin.Context) {
 	logger.Info.Println("request data -", data)
 
 	if data.Command == "on" {
-		command = "n"
+		//command = "n"
 		for range 4 {
 			protocols.SendWOL(config.FindPC(data.Zone, "mac"))
 		}
 	} else {
-		command = "f"
+		// command = "f"
 		protocols.SendGet(formater.CustomStr(
 			"http://{ip}:3001/off",
 			map[string]any{"ip": config.FindPC(data.Zone, "ip")}), 2,
@@ -185,14 +185,14 @@ func powerZone(c *gin.Context) {
 		protocols.SendPjlink(ip, data.Command)
 	}
 
-	zoneRelay := config.FindRelay(data.Zone)
-	for _, ip := range zoneRelay {
-		protocols.SendGet(formater.CustomStr(
-			"http://admin:admin@{ip}/protect/rb0{command}.cgi",
-			map[string]any{"ip": ip, "command": command},
-		), 2,
-		)
-	}
+	// zoneRelay := config.FindRelay(data.Zone)
+	// for _, ip := range zoneRelay {
+	// 	protocols.SendGet(formater.CustomStr(
+	// 		"http://admin:admin@{ip}/protect/rb0{command}.cgi",
+	// 		map[string]any{"ip": ip, "command": command},
+	// 	), 2,
+	// 	)
+	// }
 
 	c.JSON(200, gin.H{
 		"message": "OK",
@@ -269,22 +269,22 @@ func powerPark(c *gin.Context) {
 	switch data.Command {
 	case "on":
 
-		// Turn on relay
-		go func() {
-			for _, ip := range config.ALLRELAY {
-				protocols.SendGet(formater.CustomStr(
-					"http://admin:admin@{ip}/protect/rb0f.cgi",
-					map[string]any{"ip": ip},
-				), 2,
-				)
-				protocols.SendGet(formater.CustomStr(
-					"http://admin:admin@{ip}/protect/rb1f.cgi",
-					map[string]any{"ip": ip},
-				), 2,
-				)
-			}
+		// // Turn on relay
+		// go func() {
+		// 	for _, ip := range config.ALLRELAY {
+		// 		protocols.SendGet(formater.CustomStr(
+		// 			"http://admin:admin@{ip}/protect/rb0f.cgi",
+		// 			map[string]any{"ip": ip},
+		// 		), 2,
+		// 		)
+		// 		protocols.SendGet(formater.CustomStr(
+		// 			"http://admin:admin@{ip}/protect/rb1f.cgi",
+		// 			map[string]any{"ip": ip},
+		// 		), 2,
+		// 		)
+		// 	}
 
-		}()
+		// }()
 
 		// Wake MACs
 		go func() {
@@ -308,21 +308,21 @@ func powerPark(c *gin.Context) {
 		}()
 
 		// Turn on lidar relay
-		go func() {
-			protocols.SendGet(formater.CustomStr(
-				"http://admin:admin@{ip}/protect/rb0n.cgi",
-				map[string]any{"ip": "10.8.3.62"},
-			), 2,
-			)
+		// go func() {
+		// 	protocols.SendGet(formater.CustomStr(
+		// 		"http://admin:admin@{ip}/protect/rb0n.cgi",
+		// 		map[string]any{"ip": "10.8.3.62"},
+		// 	), 2,
+		// 	)
 
-			time.Sleep(1 * time.Minute)
+		// 	time.Sleep(1 * time.Minute)
 
-			protocols.SendGet(formater.CustomStr(
-				"http://admin:admin@{ip}/protect/rb0f.cgi",
-				map[string]any{"ip": "10.8.3.62"},
-			), 2,
-			)
-		}()
+		// 	protocols.SendGet(formater.CustomStr(
+		// 		"http://admin:admin@{ip}/protect/rb0f.cgi",
+		// 		map[string]any{"ip": "10.8.3.62"},
+		// 	), 2,
+		// 	)
+		// }()
 
 		// // Turn defaults on lights
 		// go func() {
@@ -350,16 +350,16 @@ func powerPark(c *gin.Context) {
 		}()
 
 		// Turn off relay
-		go func() {
-			time.Sleep(5 * time.Minute)
-			for _, ip := range config.ALLRELAY {
-				protocols.SendGet(formater.CustomStr(
-					"http://admin:admin@{ip}/protect/rb0n.cgi",
-					map[string]any{"ip": ip},
-				), 2,
-				)
-			}
-		}()
+		// go func() {
+		// 	time.Sleep(5 * time.Minute)
+		// 	for _, ip := range config.ALLRELAY {
+		// 		protocols.SendGet(formater.CustomStr(
+		// 			"http://admin:admin@{ip}/protect/rb0n.cgi",
+		// 			map[string]any{"ip": ip},
+		// 		), 2,
+		// 		)
+		// 	}
+		// }()
 
 	case "restart":
 		// Restart PCs by IP
