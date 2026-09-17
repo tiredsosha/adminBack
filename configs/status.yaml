@@ -1,225 +1,86 @@
 zones:
-  - id: relay
-    innerZones:
-      - id: relayMoscow
-        status:
-          controller_1: 200
-      - id: relayStalin
-        status:
-          controller_1: 200
-      - id: relayLenin
-        status:
-          controller_1: 200
-      - id: relayKursk
-        status:
-          controller_1: 200
-      - id: relayDnepro
-        status:
-          controller_1: 200
-  - id: entrance
+  - id: preshow
+    status:
+      pc_1: 521
+      pj_1: 520
+  - id: adminStructure
+    status:
+      pc_1: 521
+      pj_1: 520
+  - id: molivduls
+    status:
+      pc_1: 521
+  - id: army
+    status:
+      pc_1: 521
+      pj_1: 520
+  - id: tradPath
+    status:
+      pc_1: 521
+      pj_1: 520
+  - id: christians
     status:
       pc_1: 521
       pj_1: 520
       pj_2: 520
-      pj_3: 520
-      pj_4: 0
-  - id: germanPlans
+  - id: bishops
     status:
       pc_1: 521
-  - id: germanWar
+  - id: chirchStaff
+    status:
+      pc_1: 521
+  - id: arc
+    status:
+      pc_1: 521
+  - id: pilgrimage
+    status:
+      pc_1: 521
+  - id: radzivil
     innerZones:
-      - id: germanWarLed
+      - id: radzivilProjectors
         status:
           pc_1: 521
-      - id: germanWarTouch
+          pj_1: 520
+          pj_2: 520
+      - id: radzivilTouch
         status:
           pc_1: 521
-  - id: statistics
-    status:
-      pc_1: 521
-      pj_1: 0
-  - id: germanTV
-    status:
-      pc_1: 521
-  - id: family
+  - id: gazibo
     innerZones:
-      - id: familyLed
+      - id: gaziboTouch1
         status:
           pc_1: 521
-      - id: familyMother
+      - id: gaziboTouch2
         status:
           pc_1: 521
-      - id: familyFather
+      - id: gaziboTouch3
         status:
           pc_1: 521
-      - id: familyDaugther
+      - id: gaziboTouch4
         status:
           pc_1: 521
-      - id: familySon
+      - id: gaziboProjector
         status:
           pc_1: 521
-      - id: familyKids
-        status:
-          pc_1: 521
-  - id: hijacking
-    status:
-      pc_1: 521
-      pj_1: 0
-      pj_2: 0
-  - id: gazvagen
-    status:
-      pc_1: 521
-      pj_1: 0
-  - id: kids
-    status:
-      pc_1: 521
-      pj_1: 0
-  - id: izba
-    status:
-      pc_1: 521
-  - id: burnedLand
+          pj_1: 520
+  - id: dayToDay
     status:
       pc_1: 521
       pj_1: 520
-  - id: burnedTouch
+  - id: agroCulture
     status:
       pc_1: 521
-  - id: prisonMap
-    status:
-      pc_1: 521
-      pj_1: 0
-  - id: prisonBox
-    status:
-      pc_1: 521
-  - id: nari
-    status:
-      pc_1: 521
-  - id: birds
+  - id: heritage
     status:
       pc_1: 521
       pj_1: 520
-  - id: boy
+  - id: vladimirBook
     status:
       pc_1: 521
       pj_1: 520
-  - id: boyTouch
+  - id: lastDecades
     status:
       pc_1: 521
-  - id: carriagePlatform
+  - id: bizantineSound
     status:
       pc_1: 521
-      pj_1: 520
-  - id: carriageCabinet
-    status:
-      pc_1: 521
-  - id: carriageGirl
-    status:
-      pc_1: 521
-  - id: carriageOfficer
-    status:
-      pc_1: 521
-      pj_1: 520
-  - id: carriageTranslucent
-    status:
-      pc_1: 521
-  - id: keningMarket
-    status:
-      pc_1: 521
-  - id: keningGirl
-    status:
-      pc_1: 521
-      pj_1: 0
-  - id: keningLetters
-    status:
-      pc_1: 521
-  - id: flatDaugher
-    status:
-      pc_1: 521
-  - id: flatWindow
-    status:
-      pc_1: 521
-  - id: flatBox
-    innerZones:
-      - id: flatBoxLeft
-        status:
-          pc_1: 521
-      - id: flatBoxRight
-        status:
-          pc_1: 521
-  - id: leningrad
-    status:
-      pc_1: 521
-      pj_1: 0
-      pj_2: 0
-  - id: culturePiano
-    status:
-      pc_1: 521
-  - id: cultureKhabensky
-    status:
-      pc_1: 521
-      pj_1: 520
-  - id: cultureTouch
-    status:
-      pc_1: 521
-  - id: europe
-    status:
-      pc_1: 521
-      pj_1: 0
-      pj_2: 0
-  - id: europeMap
-    status:
-      pc_1: 521
-      pj_1: 0
-  - id: europeFather
-    status:
-      pc_1: 521
-  - id: europeScale
-    status:
-      pc_1: 521
-  - id: europeHolo
-    status:
-      pc_1: 521
-  - id: europeCinema
-    status:
-      pc_1: 521
-      pj_1: 0
-  - id: japanHologram
-    status:
-      pc_1: 521
-  - id: japanPhotos
-    innerZones:
-      - id: photosLeft
-        status:
-          pc_1: 521
-          pj_1: 0
-      - id: photosRight
-        status:
-          pc_1: 521
-          pj_1: 0
-  - id: japanMap
-    status:
-      pc_1: 521
-      pj_1: 0
-  - id: japanTranslucent
-    status:
-      pc_1: 521
-  - id: japanSon
-    status:
-      pc_1: 521
-  - id: nur
-    status:
-      pc_1: 521
-      pj_1: 0
-      pj_2: 0
-  - id: court
-    status:
-      pc_1: 521
-      pj_1: 520
-  - id: nurTouch
-    innerZones:
-      - id: nurTouchLeft
-        status:
-          pc_1: 521
-      - id: nurTouchRight
-        status:
-          pc_1: 521

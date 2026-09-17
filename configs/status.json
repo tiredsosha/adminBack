@@ -1,429 +1,164 @@
 {
   "zones": [
     {
-      "id": "relay",
-      "innerZones": [
-        {
-          "id": "relayMoscow",
-          "status": {
-            "controller_1": 200
-          }
-        },
-        {
-          "id": "relayStalin",
-          "status": {
-            "controller_1": 200
-          }
-        },
-        {
-          "id": "relayLenin",
-          "status": {
-            "controller_1": 200
-          }
-        },
-        {
-          "id": "relayKursk",
-          "status": {
-            "controller_1": 200
-          }
-        },
-        {
-          "id": "relayDnepro",
-          "status": {
-            "controller_1": 200
-          }
-        }
-      ]
+      "id": "preshow",
+      "status": {
+        "pc_1": 521,
+        "pj_1": 520
+      }
     },
     {
-      "id": "entrance",
+      "id": "adminStructure",
+      "status": {
+        "pc_1": 521,
+        "pj_1": 520
+      }
+    },
+    {
+      "id": "molivduls",
+      "status": {
+        "pc_1": 521
+      }
+    },
+    {
+      "id": "army",
+      "status": {
+        "pc_1": 521,
+        "pj_1": 520
+      }
+    },
+    {
+      "id": "tradPath",
+      "status": {
+        "pc_1": 521,
+        "pj_1": 520
+      }
+    },
+    {
+      "id": "christians",
       "status": {
         "pc_1": 521,
         "pj_1": 520,
-        "pj_2": 520,
-        "pj_3": 520,
-        "pj_4": 0
+        "pj_2": 520
       }
     },
     {
-      "id": "germanPlans",
+      "id": "bishops",
       "status": {
         "pc_1": 521
       }
     },
     {
-      "id": "germanWar",
+      "id": "chirchStaff",
+      "status": {
+        "pc_1": 521
+      }
+    },
+    {
+      "id": "arc",
+      "status": {
+        "pc_1": 521
+      }
+    },
+    {
+      "id": "pilgrimage",
+      "status": {
+        "pc_1": 521
+      }
+    },
+    {
+      "id": "radzivil",
       "innerZones": [
         {
-          "id": "germanWarLed",
-          "status": {
-            "pc_1": 521
-          }
-        },
-        {
-          "id": "germanWarTouch",
-          "status": {
-            "pc_1": 521
-          }
-        }
-      ]
-    },
-    {
-      "id": "statistics",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 0
-      }
-    },
-    {
-      "id": "germanTV",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "family",
-      "innerZones": [
-        {
-          "id": "familyLed",
-          "status": {
-            "pc_1": 521
-          }
-        },
-        {
-          "id": "familyMother",
-          "status": {
-            "pc_1": 521
-          }
-        },
-        {
-          "id": "familyFather",
-          "status": {
-            "pc_1": 521
-          }
-        },
-        {
-          "id": "familyDaugther",
-          "status": {
-            "pc_1": 521
-          }
-        },
-        {
-          "id": "familySon",
-          "status": {
-            "pc_1": 521
-          }
-        },
-        {
-          "id": "familyKids",
-          "status": {
-            "pc_1": 521
-          }
-        }
-      ]
-    },
-    {
-      "id": "hijacking",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 0,
-        "pj_2": 0
-      }
-    },
-    {
-      "id": "gazvagen",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 0
-      }
-    },
-    {
-      "id": "kids",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 0
-      }
-    },
-    {
-      "id": "izba",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "burnedLand",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 520
-      }
-    },
-    {
-      "id": "burnedTouch",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "prisonMap",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 0
-      }
-    },
-    {
-      "id": "prisonBox",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "nari",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "birds",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 520
-      }
-    },
-    {
-      "id": "boy",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 520
-      }
-    },
-    {
-      "id": "boyTouch",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "carriagePlatform",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 520
-      }
-    },
-    {
-      "id": "carriageCabinet",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "carriageGirl",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "carriageOfficer",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 520
-      }
-    },
-    {
-      "id": "carriageTranslucent",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "keningMarket",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "keningGirl",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 0
-      }
-    },
-    {
-      "id": "keningLetters",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "flatDaugher",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "flatWindow",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "flatBox",
-      "innerZones": [
-        {
-          "id": "flatBoxLeft",
-          "status": {
-            "pc_1": 521
-          }
-        },
-        {
-          "id": "flatBoxRight",
-          "status": {
-            "pc_1": 521
-          }
-        }
-      ]
-    },
-    {
-      "id": "leningrad",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 0,
-        "pj_2": 0
-      }
-    },
-    {
-      "id": "culturePiano",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "cultureKhabensky",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 520
-      }
-    },
-    {
-      "id": "cultureTouch",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "europe",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 0,
-        "pj_2": 0
-      }
-    },
-    {
-      "id": "europeMap",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 0
-      }
-    },
-    {
-      "id": "europeFather",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "europeScale",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "europeHolo",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "europeCinema",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 0
-      }
-    },
-    {
-      "id": "japanHologram",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "japanPhotos",
-      "innerZones": [
-        {
-          "id": "photosLeft",
+          "id": "radzivilProjectors",
           "status": {
             "pc_1": 521,
-            "pj_1": 0
+            "pj_1": 520,
+            "pj_2": 520
           }
         },
         {
-          "id": "photosRight",
+          "id": "radzivilTouch",
           "status": {
-            "pc_1": 521,
-            "pj_1": 0
+            "pc_1": 521
           }
         }
       ]
     },
     {
-      "id": "japanMap",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 0
-      }
+      "id": "gazibo",
+      "innerZones": [
+        {
+          "id": "gaziboTouch1",
+          "status": {
+            "pc_1": 521
+          }
+        },
+        {
+          "id": "gaziboTouch2",
+          "status": {
+            "pc_1": 521
+          }
+        },
+        {
+          "id": "gaziboTouch3",
+          "status": {
+            "pc_1": 521
+          }
+        },
+        {
+          "id": "gaziboTouch4",
+          "status": {
+            "pc_1": 521
+          }
+        },
+        {
+          "id": "gaziboProjector",
+          "status": {
+            "pc_1": 521,
+            "pj_1": 520
+          }
+        }
+      ]
     },
     {
-      "id": "japanTranslucent",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "japanSon",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "nur",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 0,
-        "pj_2": 0
-      }
-    },
-    {
-      "id": "court",
+      "id": "dayToDay",
       "status": {
         "pc_1": 521,
         "pj_1": 520
       }
     },
     {
-      "id": "nurTouch",
-      "innerZones": [
-        {
-          "id": "nurTouchLeft",
-          "status": {
-            "pc_1": 521
-          }
-        },
-        {
-          "id": "nurTouchRight",
-          "status": {
-            "pc_1": 521
-          }
-        }
-      ]
+      "id": "agroCulture",
+      "status": {
+        "pc_1": 521
+      }
+    },
+    {
+      "id": "heritage",
+      "status": {
+        "pc_1": 521,
+        "pj_1": 520
+      }
+    },
+    {
+      "id": "vladimirBook",
+      "status": {
+        "pc_1": 521,
+        "pj_1": 520
+      }
+    },
+    {
+      "id": "lastDecades",
+      "status": {
+        "pc_1": 521
+      }
+    },
+    {
+      "id": "bizantineSound",
+      "status": {
+        "pc_1": 521
+      }
     }
   ]
 }
