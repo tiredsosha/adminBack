@@ -134,8 +134,8 @@ github.com/stretchr/testify v1.12.1 h1:EuwCh5fleGS7H32xRwO3wRGT7DxrDhLAT6FF8MpWD
 github.com/stretchr/testify v1.12.1/go.mod h1:MDEgiDPPsNp5cuIrHPPCyornHKgEVbtFUmoNlxoYthg=
 github.com/tiredsosha/gopjlink v0.0.0-20260907134342-010d63a4a4ad h1:7jUl1k44vCj2+ziRz4InlzaEsN2gO/MdSjtQfXlck9o=
 github.com/tiredsosha/gopjlink v0.0.0-20260907134342-010d63a4a4ad/go.mod h1:NLDjz/1JRT/RH5/DjyAFY290bhO5KEzXd1ObyOzn52g=
-github.com/tiredsosha/pjlink v0.0.0-20260907141945-b10368f4cdfa h1:J8TiwvvE6+VArylDuLx51LGj1b5MEALmiiR3NLy8shk=
-github.com/tiredsosha/pjlink v0.0.0-20260907141945-b10368f4cdfa/go.mod h1:DCau3SLL4398PUvTk2JPbDlb/fzbGNGAAwLPyoCwaC4=
+github.com/tiredsosha/pjlink v0.0.0-20260919143015-efba245af6fe h1:1KsJa4LNoBvBs3ngL+vVUH3WSpl8Bt2asIHp1xvhalQ=
+github.com/tiredsosha/pjlink v0.0.0-20260919143015-efba245af6fe/go.mod h1:DCau3SLL4398PUvTk2JPbDlb/fzbGNGAAwLPyoCwaC4=
 github.com/twitchyliquid64/golang-asm v0.15.1 h1:SU5vSMR7hnwNxj24w34ZyCi/FmDZTkS4MhqMhdFk5YI=
 github.com/twitchyliquid64/golang-asm v0.15.1/go.mod h1:a1lVb/DtPvCB8fslRZhAngC2+aY1QWCk3Cedj/Gdt08=
 github.com/ugorji/go/codec v1.3.2 h1:zkEASHHyEClGeURfgNT9PJZVfAbs9oEX9QXggwWNJbc=

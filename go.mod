@@ -64,7 +64,7 @@ require (
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/hypebeast/go-osc v0.0.0-20220308234300-cec5a8a1e5f5
 	github.com/tiredsosha/gopjlink v0.0.0-20260907134342-010d63a4a4ad
-	github.com/tiredsosha/pjlink v0.0.0-20260907141945-b10368f4cdfa
+	github.com/tiredsosha/pjlink v0.0.0-20260919143015-efba245af6fe
 	golang.org/x/net v0.59.0 // indirect
 	golang.org/x/sync v0.23.0 // indirect
 	golang.org/x/sys v0.48.0 // indirect
