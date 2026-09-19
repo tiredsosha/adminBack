@@ -15,7 +15,7 @@ tradPath:
   mac: 10:7C:61:B5:6E:24
 christians:
   ip: 10.8.5.11
-  mac: BC:FC:E7:B4:84:8E2
+  mac: BC:FC:E7:B4:84:8E
 bishops:
   ip: 10.8.5.12
   mac: BC:FC:E7:B4:83:B3
@@ -27,7 +27,7 @@ arc:
   mac: 10:7C:61:B5:6F:19
 pilgrimage:
   ip: 10.8.7.12
-  mac: A0:AD:9F:D1:CB:63
+  mac: 10:7C:61:B5:6D:FA
 radzivilProjectors:
   ip: 10.8.7.11
   mac: BC:FC:E7:B4:84:CB
