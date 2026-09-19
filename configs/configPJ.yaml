@@ -1,7 +1,7 @@
 preshow:
   pj_1: 10.8.1.21
 adminStructure:
-  pj_1: 10.8.1.21
+  pj_1: 10.8.2.21
 army:
   pj_1: 10.8.3.21
 tradPath:
@@ -17,6 +17,6 @@ gaziboProjector:
 dayToDay:
   pj_1: 10.8.9.21
 heritage:
-  pj_1: 10.8.9.21
+  pj_1: 10.8.11.21
 vladimirBook:
   pj_1: 10.8.12.21
