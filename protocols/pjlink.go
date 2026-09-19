@@ -2,6 +2,7 @@ package protocols
 
 import (
 	"context"
+	"strings"
 	"time"
 
 	"github.com/tiredsosha/admin/tools/logger"
@@ -99,33 +100,42 @@ func GetPjlink(ip string) (response int) {
 		return
 	}
 
-	switch status.Response[0] {
-	case "1":
-		// ON
-		response = 200
-
-	case "3":
-		// Warming up
-		response = 200
-
-	case "0":
-		// Standby / OFF
-		response = 521
-
-	case "2":
-		// Cooling
-		response = 521
-
-	default:
+	response = pjlinkPowerStatus(status.Response)
+	if response == 520 {
 		logger.Error.Printf(
 			"Unknown PJLink power status from %s: %q",
 			ip,
 			status.Response[0],
 		)
-		response = 520
 	}
 
-	// logger.Info.Printf("PJLink %s status: %s -> %d", ip, status.Response[0], response)
-
 	return
+}
+
+func pjlinkPowerStatus(values []string) int {
+	if len(values) == 0 {
+		return 520
+	}
+
+	status := strings.Trim(values[0], "\x00 \t\r\n")
+
+	switch status {
+	case "1":
+		// ON
+		return 200
+
+	case "3":
+		// Warming up
+		return 200
+
+	case "0":
+		// Standby / OFF
+		return 521
+
+	case "2":
+		// Cooling
+		return 521
+	}
+
+	return 520
 }
