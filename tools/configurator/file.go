@@ -157,7 +157,12 @@ func GenerateIp() error {
 		for _, equipment := range equipmentNames {
 			ip, err := equipmentIP(zone, equipment)
 			if err != nil {
-				return err
+				if equipment == "pc_1" {
+					logger.Error.Printf("IP для обязательного оборудования %q в зоне %q не найден", equipment, zone)
+					return err
+				}
+				logger.Warn.Printf("IP для необязательного оборудования %q в зоне %q не найден, запись пропущена", equipment, zone)
+				continue
 			}
 			records = append(records, ipRecord{
 				Zone:      zone,
@@ -240,6 +245,5 @@ func equipmentIP(zone, equipment string) (string, error) {
 		}
 	}
 
-	logger.Error.Printf("IP not found for equipment %q in zone %q", equipment, zone)
 	return "", errors.New("IP not found")
 }

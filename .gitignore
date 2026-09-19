@@ -70,5 +70,5 @@ manifest.xml
 # Windows shortcuts
 *.lnk
 
-# ipconfig file
-/config/ip.yaml
+# Генерируемый файл IP-адресов
+configs/ip.yaml
