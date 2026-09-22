@@ -1,22 +1,8 @@
-preshow:
-  pj_1: 10.8.1.21
-adminStructure:
-  pj_1: 10.8.2.21
-army:
-  pj_1: 10.8.3.21
-tradPath:
-  pj_1: 10.8.4.21
-christians:
-  pj_1: 10.8.5.21
-  pj_2: 10.8.5.22
-radzivilProjectors:
-  pj_1: 10.8.7.21
-  pj_2: 10.8.7.22
-gaziboProjector:
-  pj_1: 10.8.8.21
-dayToDay:
-  pj_1: 10.8.9.21
-heritage:
-  pj_1: 10.8.11.21
-vladimirBook:
-  pj_1: 10.8.12.21
+phototable:
+  pj_1: 10.8.6.41
+winners:
+  pj_1: 10.1.10.41
+horserider:
+  pj_1: 10.1.13.41
+book:
+  pj_1: 10.1.16.41

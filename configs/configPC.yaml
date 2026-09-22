@@ -1,69 +1,57 @@
-preshow:
-  ip: 10.8.1.11
+led:
+  ip: 10.8.1.21
   mac: BC:FC:E7:B4:84:9B
-adminStructure:
-  ip: 10.8.2.12
+layout1:
+  ip: 10.8.2.21
   mac: BC:FC:E7:B4:84:2D
-molivduls:
-  ip: 10.8.2.11
-  mac: BC:FC:E7:B4:83:43
-army:
-  ip: 10.8.3.11
+layout2:
+  ip: 10.8.2.22
+  mac: BC:FC:E7:B4:84:2E
+history:
+  ip: 10.8.4.21
   mac: 10:7C:61:B5:6D:57
-tradPath:
-  ip: 10.8.4.11
+totalisator:
+  ip: 10.8.5.21
   mac: 10:7C:61:B5:6E:24
-christians:
-  ip: 10.8.5.11
+phototable:
+  ip: 10.8.6.21
   mac: BC:FC:E7:B4:84:8E
-bishops:
-  ip: 10.8.5.12
+horses:
+  ip: 10.8.7.21
   mac: BC:FC:E7:B4:83:B3
-chirchStaff:
-  ip: 10.8.5.13
+rysack1:
+  ip: 10.8.8.21
   mac: BC:FC:E7:B4:82:BF
-arc:
-  ip: 10.8.6.11
+rysack2:
+  ip: 10.8.8.22
+  mac: BC:FC:E7:B4:82:C0
+names:
+  ip: 10.8.9.21
   mac: 10:7C:61:B5:6F:19
-pilgrimage:
-  ip: 10.8.7.12
+winners:
+  ip: 10.8.10.21
   mac: 10:7C:61:B5:6D:FA
-radzivilProjectors:
-  ip: 10.8.7.11
+triplet1:
+  ip: 10.8.11.21
   mac: BC:FC:E7:B4:84:CB
-radzivilTouch:
-  ip: 10.8.7.13
+triplet2:
+  ip: 10.8.11.22
+  mac: BC:FC:E7:B4:84:CC
+triplet3:
+  ip: 10.8.11.23
+  mac: BC:FC:E7:B4:84:CD
+portreit:
+  ip: 10.8.12.21
   mac: BC:FC:E7:B4:84:BE
-gaziboTouch1:
-  ip: 10.8.8.11
+horserider:
+  ip: 10.8.13.21
   mac: BC:FC:E7:B4:83:B2
-gaziboTouch2:
-  ip: 10.8.8.12
+profession:
+  ip: 10.8.14.21
   mac: BC:FC:E7:B4:83:30
-gaziboTouch3:
-  ip: 10.8.8.13
+budenniy:
+  ip: 10.8.15.21
   mac: BC:FC:E7:B4:83:21
-gaziboTouch4:
-  ip: 10.8.8.14
+book:
+  ip: 10.8.16.21
   mac: BC:FC:E7:B4:84:80
-gaziboProjector:
-  ip: 10.8.8.15
-  mac: 10:7C:61:B5:6F:0B
-dayToDay:
-  ip: 10.8.9.11
-  mac: 10:7C:61:B5:6E:25
-agroCulture:
-  ip: 10.8.10.11
-  mac: BC:FC:E7:B4:83:F9
-heritage:
-  ip: 10.8.11.11
-  mac: 10:7C:61:B5:6D:14
-vladimirBook:
-  ip: 10.8.12.11
-  mac: BC:FC:E7:B4:84:10
-lastDecades:
-  ip: 10.8.12.12
-  mac: BC:FC:E7:B4:84:1E
-bizantineSound:
-  ip: 10.8.0.202
-  mac: BC:FC:E7:B4:82:E9
