@@ -1,86 +1,64 @@
 zones:
-  - id: preshow
+  - id: led
+    status:
+      pc_1: 521
+  - id: layout1
+    status:
+      pc_1: 521
+  - id: layout2
+    status:
+      pc_1: 521
+  - id: history
+    status:
+      pc_1: 521
+  - id: totalisator
+    status:
+      pc_1: 521
+  - id: phototable
     status:
       pc_1: 521
       pj_1: 520
-  - id: adminStructure
+  - id: horses
+    status:
+      pc_1: 521
+  - id: rysack1
+    status:
+      pc_1: 521
+  - id: rysack2
+    status:
+      pc_1: 521
+  - id: names
+    status:
+      pc_1: 521
+  - id: winners
     status:
       pc_1: 521
       pj_1: 520
-  - id: molivduls
-    status:
-      pc_1: 521
-  - id: army
-    status:
-      pc_1: 521
-      pj_1: 520
-  - id: tradPath
-    status:
-      pc_1: 521
-      pj_1: 520
-  - id: christians
-    status:
-      pc_1: 521
-      pj_1: 520
-      pj_2: 520
-  - id: bishops
-    status:
-      pc_1: 521
-  - id: chirchStaff
-    status:
-      pc_1: 521
-  - id: arc
-    status:
-      pc_1: 521
-  - id: pilgrimage
-    status:
-      pc_1: 521
-  - id: radzivil
+  - id: triplets
     innerZones:
-      - id: radzivilProjectors
+      - id: triplet1
         status:
           pc_1: 521
-          pj_1: 520
-          pj_2: 520
-      - id: radzivilTouch
+      - id: triplet2
         status:
           pc_1: 521
-  - id: gazibo
-    innerZones:
-      - id: gaziboTouch1
+      - id: triplet3
         status:
           pc_1: 521
-      - id: gaziboTouch2
-        status:
-          pc_1: 521
-      - id: gaziboTouch3
-        status:
-          pc_1: 521
-      - id: gaziboTouch4
-        status:
-          pc_1: 521
-      - id: gaziboProjector
-        status:
-          pc_1: 521
-          pj_1: 520
-  - id: dayToDay
+  - id: portreit
+    status:
+      pc_1: 521
+  - id: horserider
     status:
       pc_1: 521
       pj_1: 520
-  - id: agroCulture
+  - id: profession
     status:
       pc_1: 521
-  - id: heritage
+  - id: budenniy
+    status:
+      pc_1: 521
+  - id: book
     status:
       pc_1: 521
       pj_1: 520
-  - id: vladimirBook
-    status:
-      pc_1: 521
-      pj_1: 520
-  - id: lastDecades
-    status:
-      pc_1: 521
-  - id: bizantineSound
-    status:
-      pc_1: 521
