@@ -109,7 +109,7 @@ func powerRelay(c *gin.Context) {
 
 func powerZone(c *gin.Context) {
 	var data JsonCommand
-	command := "0"
+	// command := "0"
 
 	// Bind JSON and validate
 	if err := c.ShouldBindJSON(&data); err != nil {
@@ -120,17 +120,36 @@ func powerZone(c *gin.Context) {
 
 	logger.Info.Println("request data -", data)
 
-	if data.Command == "on" {
-		command = "n"
-		for range 4 {
-			protocols.SendWOL(config.FindPC(data.Zone, "mac"))
+	if data.Zone != "guards" && data.Zone != "ussr" {
+		if data.Command == "on" {
+			// command = "n"
+			for range 4 {
+				protocols.SendWOL(config.FindPC(data.Zone, "mac"))
+			}
+		} else {
+			// command = "f"
+			protocols.SendGet(formater.CustomStr(
+				"http://{ip}:3001/off",
+				map[string]any{"ip": config.FindPC(data.Zone, "ip")}), 2,
+			)
 		}
-	} else {
-		command = "f"
-		protocols.SendGet(formater.CustomStr(
-			"http://{ip}:3001/off",
-			map[string]any{"ip": config.FindPC(data.Zone, "ip")}), 2,
-		)
+	}
+
+	switch data.Command {
+	case "on":
+		switch data.Zone {
+		case "guards":
+			protocols.SendUdp("10.1.5.24", 8010, "start")
+		case "ussr":
+			protocols.SendUdp("10.1.6.21", 8010, "start")
+		}
+	case "off":
+		switch data.Zone {
+		case "guards":
+			protocols.SendUdp("10.1.5.24", 8010, "stop")
+		case "ussr":
+			protocols.SendUdp("10.1.6.21", 8010, "stop")
+		}
 	}
 
 	zonePJ := config.FindZonePJ(data.Zone)
@@ -138,75 +157,19 @@ func powerZone(c *gin.Context) {
 		protocols.SendPjlink(ip, data.Command)
 	}
 
-	zoneRelay := config.FindRelay(data.Zone)
-	for _, ip := range zoneRelay {
-		protocols.SendGet(formater.CustomStr(
-			"http://admin:admin@{ip}/protect/rb0{command}.cgi",
-			map[string]any{"ip": ip, "command": command},
-		), 2,
-		)
-	}
+	// zoneRelay := config.FindRelay(data.Zone)
+	// for _, ip := range zoneRelay {
+	// 	protocols.SendGet(formater.CustomStr(
+	// 		"http://admin:admin@{ip}/protect/rb0{command}.cgi",
+	// 		map[string]any{"ip": ip, "command": command},
+	// 	), 2,
+	// 	)
+	// }
 
 	c.JSON(200, gin.H{
 		"message": "OK",
 	})
 }
-
-// func powerPark(c *gin.Context) {
-// 	var data JsonNoID
-
-// 	// Bind JSON and validate
-// 	if err := c.ShouldBindJSON(&data); err != nil {
-// 		logger.Error.Println("Invalid input:", err)
-// 		c.JSON(400, gin.H{"error": err.Error()})
-// 		return
-// 	}
-
-// 	logger.Info.Println("request data -", data)
-
-// 	if data.Command == "on" {
-// 		go func() {
-// 			for _, mac := range config.ALLMAC {
-// 				for range 4 {
-// 					protocols.SendWOL(mac)
-// 				}
-// 			}
-
-// 			for _, pj := range config.ALLPJ {
-// 				protocols.SendPjlink(pj, data.Command)
-// 			}
-// 		}()
-
-// 	} else if data.Command == "off" {
-
-// 		go func() {
-// 			for _, pc := range config.ALLPC {
-// 				protocols.SendGet(formater.CustomStr(
-// 					"http://{ip}:3001/off",
-// 					map[string]any{"ip": pc}), 2,
-// 				)
-// 			}
-
-// 			for _, ip := range config.ALLPJ {
-// 				protocols.SendPjlink(ip, data.Command)
-// 			}
-// 		}()
-
-// 	} else if data.Command == "restart" {
-// 		go func() {
-// 			for _, pc := range config.ALLPC {
-// 				protocols.SendGet(formater.CustomStr(
-// 					"http://{ip}:3001/restart",
-// 					map[string]any{"ip": pc}), 2,
-// 				)
-// 			}
-// 		}()
-// 	}
-
-// 	c.JSON(200, gin.H{
-// 		"message": "OK",
-// 	})
-// }
 
 func powerPark(c *gin.Context) {
 	var data JsonNoID

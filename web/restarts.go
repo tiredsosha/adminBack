@@ -20,10 +20,12 @@ func restartPc(c *gin.Context) {
 
 	logger.Info.Println("request data -", data)
 
-	protocols.SendGet(formater.CustomStr(
-		"http://{ip}:3001/restart",
-		map[string]any{"ip": config.FindPC(data.Zone, "ip")}), 2,
-	)
+	if data.Zone != "guards" && data.Zone != "ussr" {
+		protocols.SendGet(formater.CustomStr(
+			"http://{ip}:3001/restart",
+			map[string]any{"ip": config.FindPC(data.Zone, "ip")}), 2,
+		)
+	}
 
 	c.JSON(200, gin.H{
 		"message": "OK",
