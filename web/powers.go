@@ -185,7 +185,7 @@ func powerPark(c *gin.Context) {
 	switch data.Command {
 	case "on":
 
-		command := "n"
+		// command := "n"
 
 		// Wake MACs
 		go func() {
@@ -199,22 +199,18 @@ func powerPark(c *gin.Context) {
 		// Turn on projectors
 		go func() {
 			for _, pj := range config.ALLPJ {
-
-				// вот это тока для рязани исключение, в других проектах надо его убирать
-				if pj != "172.16.3.73" {
-					protocols.SendPjlink(pj, "on")
-				}
+				protocols.SendPjlink(pj, "on")
 			}
 		}()
 
 		// Turn on relay
-		go func() {
-			protocols.SendGet(formater.CustomStr(
-				"http://admin:admin@{ip}/protect/rb0{command}.cgi",
-				map[string]any{"ip": "172.16.3.76", "command": command},
-			), 2,
-			)
-		}()
+		// go func() {
+		// 	protocols.SendGet(formater.CustomStr(
+		// 		"http://admin:admin@{ip}/protect/rb0{command}.cgi",
+		// 		map[string]any{"ip": "172.16.3.76", "command": command},
+		// 	), 2,
+		// 	)
+		// }()
 
 		// // Turn defaults on lights
 		// go func() {
@@ -225,13 +221,15 @@ func powerPark(c *gin.Context) {
 		// }()
 
 		go func() {
-			protocols.SendUdp("10.1.5.24", 8010, "start")
-			protocols.SendUdp("10.1.6.21", 8010, "start")
+			for i := 0; i < 2; i++ {
+				protocols.SendUdp("10.1.5.24", 8010, "start")
+				protocols.SendUdp("10.1.6.21", 8010, "start")
+			}
 		}()
 
 	case "off":
 
-		command := "f"
+		// command := "f"
 
 		// Power off PCs by IP
 		go func() {
@@ -249,17 +247,19 @@ func powerPark(c *gin.Context) {
 		}()
 
 		// Turn off relay
-		go func() {
-			protocols.SendGet(formater.CustomStr(
-				"http://admin:admin@{ip}/protect/rb0{command}.cgi",
-				map[string]any{"ip": "172.16.3.76", "command": command},
-			), 2,
-			)
-		}()
+		// go func() {
+		// 	protocols.SendGet(formater.CustomStr(
+		// 		"http://admin:admin@{ip}/protect/rb0{command}.cgi",
+		// 		map[string]any{"ip": "172.16.3.76", "command": command},
+		// 	), 2,
+		// 	)
+		// }()
 
 		go func() {
-			protocols.SendUdp("10.1.5.24", 8010, "stop")
-			protocols.SendUdp("10.1.6.21", 8010, "stop")
+			for i := 0; i < 2; i++ {
+				protocols.SendUdp("10.1.5.24", 8010, "stop")
+				protocols.SendUdp("10.1.6.21", 8010, "stop")
+			}
 		}()
 
 	case "restart":
