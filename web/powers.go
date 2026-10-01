@@ -188,6 +188,7 @@ func powerPark(c *gin.Context) {
 		for range 2 {
 			protocols.SendUdp("10.1.5.24", 8010, "start")
 			protocols.SendUdp("10.1.6.21", 8010, "start")
+			protocols.SendUdp("127.0.0.1", 8003, "start")
 		}
 
 		// command := "n"
@@ -237,6 +238,7 @@ func powerPark(c *gin.Context) {
 		for range 2 {
 			protocols.SendUdp("10.1.5.24", 8010, "stop")
 			protocols.SendUdp("10.1.6.21", 8010, "stop")
+			protocols.SendUdp("127.0.0.1", 8003, "stop")
 		}
 
 		// command := "f"
