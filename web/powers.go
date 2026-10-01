@@ -185,6 +185,11 @@ func powerPark(c *gin.Context) {
 	switch data.Command {
 	case "on":
 
+		for range 2 {
+			protocols.SendUdp("10.1.5.24", 8010, "start")
+			protocols.SendUdp("10.1.6.21", 8010, "start")
+		}
+
 		// command := "n"
 
 		// Wake MACs
@@ -220,14 +225,19 @@ func powerPark(c *gin.Context) {
 		// 	}
 		// }()
 
-		go func() {
-			for i := 0; i < 2; i++ {
-				protocols.SendUdp("10.1.5.24", 8010, "start")
-				protocols.SendUdp("10.1.6.21", 8010, "start")
-			}
-		}()
+		// go func() {
+		// 	for range 2 {
+		// 		protocols.SendUdp("10.1.5.24", 8010, "start")
+		// 		protocols.SendUdp("10.1.6.21", 8010, "start")
+		// 	}
+		// }()
 
 	case "off":
+
+		for range 2 {
+			protocols.SendUdp("10.1.5.24", 8010, "stop")
+			protocols.SendUdp("10.1.6.21", 8010, "stop")
+		}
 
 		// command := "f"
 
@@ -255,12 +265,12 @@ func powerPark(c *gin.Context) {
 		// 	)
 		// }()
 
-		go func() {
-			for i := 0; i < 2; i++ {
-				protocols.SendUdp("10.1.5.24", 8010, "stop")
-				protocols.SendUdp("10.1.6.21", 8010, "stop")
-			}
-		}()
+		// go func() {
+		// 	for i := 0; i < 2; i++ {
+		// 		protocols.SendUdp("10.1.5.24", 8010, "stop")
+		// 		protocols.SendUdp("10.1.6.21", 8010, "stop")
+		// 	}
+		// }()
 
 	case "restart":
 		// Restart PCs by IP
