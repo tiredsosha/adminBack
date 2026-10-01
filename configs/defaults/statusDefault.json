@@ -1,161 +1,63 @@
 {
   "zones": [
     {
-      "id": "preshow",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 520
-      }
-    },
-    {
-      "id": "adminStructure",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 520
-      }
-    },
-    {
-      "id": "molivduls",
+      "id": "arceology",
       "status": {
         "pc_1": 521
       }
     },
     {
-      "id": "army",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 520
-      }
-    },
-    {
-      "id": "tradPath",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 520
-      }
-    },
-    {
-      "id": "christians",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 520,
-        "pj_2": 520
-      }
-    },
-    {
-      "id": "bishops",
+      "id": "katerina",
       "status": {
         "pc_1": 521
       }
     },
     {
-      "id": "chirchStaff",
+      "id": "empire",
       "status": {
         "pc_1": 521
       }
     },
     {
-      "id": "arc",
+      "id": "mine",
       "status": {
         "pc_1": 521
       }
     },
     {
-      "id": "pilgrimage",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "radzivil",
-      "innerZones": [
-        {
-          "id": "radzivilProjectors",
-          "status": {
-            "pc_1": 521,
-            "pj_1": 520,
-            "pj_2": 520
-          }
-        },
-        {
-          "id": "radzivilTouch",
-          "status": {
-            "pc_1": 521
-          }
-        }
-      ]
-    },
-    {
-      "id": "gazibo",
-      "innerZones": [
-        {
-          "id": "gaziboTouch1",
-          "status": {
-            "pc_1": 521
-          }
-        },
-        {
-          "id": "gaziboTouch2",
-          "status": {
-            "pc_1": 521
-          }
-        },
-        {
-          "id": "gaziboTouch3",
-          "status": {
-            "pc_1": 521
-          }
-        },
-        {
-          "id": "gaziboTouch4",
-          "status": {
-            "pc_1": 521
-          }
-        },
-        {
-          "id": "gaziboProjector",
-          "status": {
-            "pc_1": 521,
-            "pj_1": 520
-          }
-        }
-      ]
-    },
-    {
-      "id": "dayToDay",
+      "id": "guards",
       "status": {
         "pc_1": 521,
-        "pj_1": 520
+        "pj_1": 521
       }
     },
     {
-      "id": "agroCulture",
+      "id": "war",
       "status": {
         "pc_1": 521
       }
     },
     {
-      "id": "heritage",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 520
-      }
-    },
-    {
-      "id": "vladimirBook",
-      "status": {
-        "pc_1": 521,
-        "pj_1": 520
-      }
-    },
-    {
-      "id": "lastDecades",
+      "id": "vov",
       "status": {
         "pc_1": 521
       }
     },
     {
-      "id": "bizantineSound",
+      "id": "map",
+      "status": {
+        "pc_1": 521,
+        "pj_1": 521
+      }
+    },
+    {
+      "id": "ussr",
+      "status": {
+        "pc_1": 521
+      }
+    },
+    {
+      "id": "facade",
       "status": {
         "pc_1": 521
       }
