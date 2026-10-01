@@ -1,33 +1,33 @@
 zones:
-    - id: arceology
-      status:
-        pc_1: 521
-    - id: katerina
-      status:
-        pc_1: 521
-    - id: empire
-      status:
-        pc_1: 521
-    - id: mine
-      status:
-        pc_1: 521
-    - id: guards
-      status:
-        pc_1: 521
-    - id: war
-      status:
-        pc_1: 521
-        pj_1: 521
-    - id: vov
-      status:
-        pc_1: 521
-    - id: map
-      status:
-        pc_1: 521
-        pj_1: 521
-    - id: ussr
-      status:
-        pc_1: 521
-    - id: facade
-      status:
-        pc_1: 521
+  - id: arceology
+    status:
+      pc_1: 521
+  - id: katerina
+    status:
+      pc_1: 521
+  - id: empire
+    status:
+      pc_1: 521
+  - id: mine
+    status:
+      pc_1: 521
+  - id: guards
+    status:
+      pc_1: 521
+      pj_1: 521
+  - id: war
+    status:
+      pc_1: 521
+  - id: vov
+    status:
+      pc_1: 521
+  - id: map
+    status:
+      pc_1: 521
+      pj_1: 521
+  - id: ussr
+    status:
+      pc_1: 521
+  - id: facade
+    status:
+      pc_1: 521
