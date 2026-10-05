@@ -19,7 +19,7 @@ func resolumeNext(c *gin.Context) {
 
 	logger.Info.Println("resolume next -", data)
 
-	protocols.SendOsc(config.FindPC(data.Zone, "ip"), 8010, "/composition/connectnextcolumn", "1")
+	protocols.SendOscInt(config.FindPC(data.Zone, "ip"), 8010, "/composition/connectnextcolumn", 1)
 
 	c.JSON(200, gin.H{
 		"message": "OK",
@@ -38,7 +38,7 @@ func resolumePrev(c *gin.Context) {
 
 	logger.Info.Println("resolume prev -", data)
 
-	protocols.SendOsc(config.FindPC(data.Zone, "ip"), 8010, "/composition/connectprevcolumn", "1")
+	protocols.SendOscInt(config.FindPC(data.Zone, "ip"), 8010, "/composition/connectprevcolumn", 1)
 
 	c.JSON(200, gin.H{
 		"message": "OK",
@@ -57,7 +57,7 @@ func resolumeBlackout(c *gin.Context) {
 
 	logger.Info.Println("resolume blackout -", data)
 
-	protocols.SendOsc(config.FindPC(data.Zone, "ip"), 8010, "/composition/bypassed", "1")
+	protocols.SendOscInt(config.FindPC(data.Zone, "ip"), 8010, "/composition/bypassed", 1)
 
 	c.JSON(200, gin.H{
 		"message": "OK",
