@@ -69,22 +69,27 @@
       }
     },
     {
-      "id": "triplet1",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "triplet2",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "triplet3",
-      "status": {
-        "pc_1": 521
-      }
+      "id": "triplets",
+      "innerZones": [
+        {
+          "id": "triplet1",
+          "status": {
+            "pc_1": 521
+          }
+        },
+        {
+          "id": "triplet2",
+          "status": {
+            "pc_1": 521
+          }
+        },
+        {
+          "id": "triplet3",
+          "status": {
+            "pc_1": 521
+          }
+        }
+      ]
     },
     {
       "id": "portreit",

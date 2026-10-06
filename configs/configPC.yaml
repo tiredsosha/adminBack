@@ -1,57 +1,57 @@
 led:
-  ip: 10.8.1.21
-  mac: BC:FC:E7:B4:84:9B
+  ip: 10.1.1.21
+  mac: 30:56:0F:7C:8F:BD
 layout1:
-  ip: 10.8.2.21
-  mac: BC:FC:E7:B4:84:2D
+  ip: 10.1.2.21
+  mac: 30:56:0F:7C:8D:AE
 layout2:
-  ip: 10.8.2.22
-  mac: BC:FC:E7:B4:84:2E
+  ip: 10.1.2.22
+  mac: 30:56:0F:7C:8D:8F
 history:
-  ip: 10.8.4.21
-  mac: 10:7C:61:B5:6D:57
+  ip: 10.1.4.21
+  mac: 30:56:0F:7C:8F:DE
 totalisator:
-  ip: 10.8.5.21
-  mac: 10:7C:61:B5:6E:24
+  ip: 10.1.5.21
+  mac: 30:56:0F:7C:90:1D
 phototable:
-  ip: 10.8.6.21
-  mac: BC:FC:E7:B4:84:8E
+  ip: 10.1.6.21
+  mac: 30:56:0F:7C:8D:79
 horses:
-  ip: 10.8.7.21
-  mac: BC:FC:E7:B4:83:B3
+  ip: 10.1.7.21
+  mac: 30:56:0F:7A:7C:84
 rysack1:
-  ip: 10.8.8.21
-  mac: BC:FC:E7:B4:82:BF
+  ip: 10.1.8.21
+  mac: 30:56:0F:7C:90:1E
 rysack2:
-  ip: 10.8.8.22
-  mac: BC:FC:E7:B4:82:C0
+  ip: 10.1.8.22
+  mac: 30:56:0F:7C:8F:DF
 names:
-  ip: 10.8.9.21
-  mac: 10:7C:61:B5:6F:19
+  ip: 10.1.9.21
+  mac: 30:56:0F:7C:90:18
 winners:
-  ip: 10.8.10.21
-  mac: 10:7C:61:B5:6D:FA
+  ip: 10.1.10.21
+  mac: 30:56:0F:7C:8D:65
 triplet1:
-  ip: 10.8.11.21
-  mac: BC:FC:E7:B4:84:CB
+  ip: 10.1.11.21
+  mac: 30:56:0F:7C:90:AF
 triplet2:
-  ip: 10.8.11.22
-  mac: BC:FC:E7:B4:84:CC
+  ip: 10.1.11.22
+  mac: 30:56:0F:7C:90:24
 triplet3:
-  ip: 10.8.11.23
-  mac: BC:FC:E7:B4:84:CD
+  ip: 10.1.11.23
+  mac: 30:56:0F:7C:90:1F
 portreit:
-  ip: 10.8.12.21
-  mac: BC:FC:E7:B4:84:BE
+  ip: 10.1.12.21
+  mac: 30:56:0F:7C:90:24
 horserider:
-  ip: 10.8.13.21
-  mac: BC:FC:E7:B4:83:B2
+  ip: 10.1.13.21
+  mac: 30:56:0F:7C:90:1A
 profession:
-  ip: 10.8.14.21
-  mac: BC:FC:E7:B4:83:30
+  ip: 10.1.14.21
+  mac: 30:56:0F:7C:8F:B2
 budenniy:
-  ip: 10.8.15.21
-  mac: BC:FC:E7:B4:83:21
+  ip: 10.1.15.21
+  mac: 30:56:0F:7C:8F:A8
 book:
-  ip: 10.8.16.21
-  mac: BC:FC:E7:B4:84:80
+  ip: 10.1.16.21
+  mac: 30:56:0F:7C:90:F9
