@@ -1,8 +1,8 @@
-led:
+enterLed:
   ip: 10.1.1.21
   mac: 30:56:0F:7C:8F:BD
-layout1:
-  ip: 10.1.2.21
+sideLed:
+  ip: 10.1.1.22
   mac: 30:56:0F:7C:8D:AE
 layout2:
   ip: 10.1.2.22
