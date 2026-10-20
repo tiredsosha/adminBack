@@ -1,8 +1,11 @@
-phototable:
-  pj_1: 10.1.6.41
-winners:
-  pj_1: 10.1.10.41
-horserider:
-  pj_1: 10.1.13.41
-book:
-  pj_1: 10.1.16.41
+history:
+  pj_1: 10.1.1.41
+  pj_2: 10.1.1.42
+tragedy:
+  pj_1: 10.1.2.41
+invasion:
+  pj_1: 10.1.3.41
+blackBook:
+  pj_1: 10.1.4.41
+help:
+  pj_1: 10.1.5.41

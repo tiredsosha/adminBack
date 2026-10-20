@@ -1,57 +1,126 @@
-enterLed:
+led:
   ip: 10.1.1.21
-  mac: 30:56:0F:7C:8F:BD
-sideLed:
+  mac: 74:56:3C:48:E9:3B
+ledSide:
   ip: 10.1.1.22
-  mac: 30:56:0F:7C:8D:AE
-layout2:
-  ip: 10.1.2.22
-  mac: 30:56:0F:7C:8D:8F
+  mac: 74:56:3C:48:E9:42
 history:
+  ip: 10.1.1.24
+  mac: 74:56:3C:48:EA:DE
+square:
+  ip: 10.1.2.21
+  mac: 30:C5:99:EE:E0:A5
+spring:
+  ip: 10.1.2.22
+  mac: 74:56:3C:56:79:21
+voices:
+  ip: 10.1.2.23
+  mac: 30:56:0F:71:C4:EF
+speech:
+  ip: 10.1.2.24
+  mac: FC:9D:05:2C:EA:72
+tragedy:
+  ip: 10.1.2.24
+  mac: FC:9D:05:2C:EA:72
+west:
+  ip: 10.1.3.21
+  mac: 74:56:3C:48:E9:0B
+touch1:
+  ip: 10.1.3.22
+  mac: 74:56:3C:56:7D:9D
+touch2:
+  ip: 10.1.3.23
+  mac: 74:56:3C:48:E9:99
+assault:
+  ip: 10.1.3.24
+  mac: 74:56:3C:48:E9:9D
+map:
+  ip: 10.1.3.25
+  mac: 74:56:3C:48:E9:D4
+invasion:
+  ip: 10.1.3.25
+  mac: 74:56:3C:48:E9:D4
+drones:
   ip: 10.1.4.21
-  mac: 30:56:0F:7C:8F:DE
-totalisator:
+  mac: 74:56:3C:56:82:2C
+blackBook:
+  ip: 10.1.4.21
+  mac: 74:56:3C:56:82:2C
+connections:
   ip: 10.1.5.21
-  mac: 30:56:0F:7C:90:1D
-phototable:
-  ip: 10.1.6.21
-  mac: 30:56:0F:7C:8D:79
-horses:
+  mac: 74:56:3C:48:EA:D3
+ancestors:
+  ip: 10.1.5.22
+  mac: 74:56:3C:56:80:76
+people1:
+  ip: 10.1.5.23
+  mac: 74:56:3C:48:E9:21
+people2:
+  ip: 10.1.5.24
+  mac: 74:56:3C:56:7D:98
+people3:
+  ip: 10.1.5.25
+  mac: 74:56:3C:56:81:44
+people4:
+  ip: 10.1.5.26
+  mac: 74:56:3C:56:7E:30
+stalingrad:
+  ip: 10.1.5.27
+  mac: 74:56:3C:48:EA:3A
+volunteers:
+  ip: 10.1.5.28
+  mac: 74:56:3C:48:E9:48
+help:
+  ip: 10.1.5.29
+  mac: 74:56:3C:48:E9:5E
+life:
   ip: 10.1.7.21
-  mac: 30:56:0F:7A:7C:84
-rysack1:
+  mac: 74:56:3C:56:82:18
+call:
+  ip: 10.1.7.22
+  mac: 74:56:3C:48:E9:DA
+interview1:
   ip: 10.1.8.21
-  mac: 30:56:0F:7C:90:1E
-rysack2:
+  mac: 74:56:3C:48:E9:C9
+interview2:
   ip: 10.1.8.22
-  mac: 30:56:0F:7C:8F:DF
-names:
-  ip: 10.1.9.21
-  mac: 30:56:0F:7C:90:18
-winners:
-  ip: 10.1.10.21
-  mac: 30:56:0F:7C:8D:65
-triplet1:
-  ip: 10.1.11.21
-  mac: 30:56:0F:7C:90:AF
-triplet2:
-  ip: 10.1.11.22
-  mac: 30:56:0F:7C:90:24
-triplet3:
-  ip: 10.1.11.23
-  mac: 30:56:0F:7C:90:1F
-portreit:
-  ip: 10.1.12.21
-  mac: 30:56:0F:7C:90:24
-horserider:
-  ip: 10.1.13.21
-  mac: 30:56:0F:7C:90:1A
-profession:
-  ip: 10.1.14.21
-  mac: 30:56:0F:7C:8F:B2
-budenniy:
-  ip: 10.1.15.21
-  mac: 30:56:0F:7C:8F:A8
-book:
-  ip: 10.1.16.21
-  mac: 30:56:0F:7C:90:F9
+  mac: FC:9D:05:9D:02:6A
+interview3:
+  ip: 10.1.8.23
+  mac: FC:9D:05:9D:02:29
+interview4:
+  ip: 10.1.8.24
+  mac: FC:9D:05:9D:0A:21
+interview5:
+  ip: 10.1.8.25
+  mac: FC:9D:05:9D:09:2F
+interview6:
+  ip: 10.1.8.26
+  mac: FC:9D:05:9D:09:3A
+interview7:
+  ip: 10.1.8.27
+  mac: FC:9D:05:9D:00:F1
+interview8:
+  ip: 10.1.8.28
+  mac: FC:9D:05:9D:09:3C
+interview9:
+  ip: 10.1.8.29
+  mac: FC:9D:05:9D:09:3D
+interview10:
+  ip: 10.1.8.30
+  mac: FC:9D:05:9D:09:3E
+interview11:
+  ip: 10.1.8.31
+  mac: FC:9D:05:9D:0D:05
+interview12:
+  ip: 10.1.8.32
+  mac: FC:9D:05:9D:02:1A
+interview13:
+  ip: 10.1.8.33
+  mac: FC:9D:05:9D:09:41
+medal1:
+  ip: 10.1.8.34
+  mac: 74:56:3C:48:EA:38
+medal2:
+  ip: 10.1.8.35
+  mac: 30:56:0F:DB:79:4C

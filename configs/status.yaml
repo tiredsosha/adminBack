@@ -2,63 +2,140 @@ zones:
   - id: led
     status:
       pc_1: 521
-  - id: layout1
-    status:
-      pc_1: 521
-  - id: layout2
+  - id: ledSide
     status:
       pc_1: 521
   - id: history
     status:
       pc_1: 521
-  - id: totalisator
+      pj_1: 520
+      pj_2: 520
+  - id: square
     status:
       pc_1: 521
-  - id: phototable
+  - id: spring
+    status:
+      pc_1: 521
+  - id: voices
+    status:
+      pc_1: 521
+  - id: speech
+    status:
+      pc_1: 521
+  - id: tragedy
     status:
       pc_1: 521
       pj_1: 520
-  - id: horses
+  - id: west
     status:
       pc_1: 521
-  - id: rysack1
-    status:
-      pc_1: 521
-  - id: rysack2
-    status:
-      pc_1: 521
-  - id: names
-    status:
-      pc_1: 521
-  - id: winners
-    status:
-      pc_1: 521
-      pj_1: 520
-  - id: triplets
+  - id: westTouch
     innerZones:
-      - id: triplet1
+      - id: touch1
         status:
           pc_1: 521
-      - id: triplet2
+      - id: touch2
         status:
           pc_1: 521
-      - id: triplet3
-        status:
-          pc_1: 521
-  - id: portreit
+  - id: assault
     status:
       pc_1: 521
-  - id: horserider
+  - id: map
+    status:
+      pc_1: 521
+  - id: invasion
     status:
       pc_1: 521
       pj_1: 520
-  - id: profession
+  - id: drones
     status:
       pc_1: 521
-  - id: budenniy
-    status:
-      pc_1: 521
-  - id: book
+  - id: blackBook
     status:
       pc_1: 521
       pj_1: 520
+  - id: connections
+    status:
+      pc_1: 521
+  - id: ancestors
+    status:
+      pc_1: 521
+  - id: people
+    innerZones:
+      - id: people1
+        status:
+          pc_1: 521
+      - id: people2
+        status:
+          pc_1: 521
+      - id: people3
+        status:
+          pc_1: 521
+      - id: people4
+        status:
+          pc_1: 521
+  - id: stalingrad
+    status:
+      pc_1: 521
+  - id: volunteers
+    status:
+      pc_1: 521
+  - id: help
+    status:
+      pc_1: 521
+      pj_1: 520
+  - id: life
+    status:
+      pc_1: 521
+  - id: call
+    status:
+      pc_1: 521
+  - id: interview
+    innerZones:
+      - id: interview1
+        status:
+          pc_1: 521
+      - id: interview2
+        status:
+          pc_1: 521
+      - id: interview3
+        status:
+          pc_1: 521
+      - id: interview4
+        status:
+          pc_1: 521
+      - id: interview5
+        status:
+          pc_1: 521
+      - id: interview6
+        status:
+          pc_1: 521
+      - id: interview7
+        status:
+          pc_1: 521
+      - id: interview8
+        status:
+          pc_1: 521
+      - id: interview9
+        status:
+          pc_1: 521
+      - id: interview10
+        status:
+          pc_1: 521
+      - id: interview11
+        status:
+          pc_1: 521
+      - id: interview12
+        status:
+          pc_1: 521
+      - id: interview13
+        status:
+          pc_1: 521
+  - id: medals
+    innerZones:
+      - id: medal1
+        status:
+          pc_1: 521
+      - id: medal2
+        status:
+          pc_1: 521
