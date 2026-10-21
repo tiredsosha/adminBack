@@ -1,7 +1,7 @@
 {
   "zones": [
     {
-      "id": "led",
+      "id": "room",
       "status": {
         "pc_1": 521
       }
