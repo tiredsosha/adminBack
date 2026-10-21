@@ -1,126 +1,60 @@
 {
   "zones": [
     {
-      "id": "room",
+      "id": "immersive",
+      "status": {
+        "pc_1": 521,
+        "pj_1": 520,
+        "pj_2": 520,
+        "pj_3": 520,
+        "pj_4": 520,
+        "pj_5": 520,
+        "pj_6": 520,
+        "pj_7": 520,
+        "pj_8": 520,
+        "pj_9": 520,
+        "pj_10": 520,
+        "pj_11": 520
+      }
+    },
+    {
+      "id": "corridor",
       "status": {
         "pc_1": 521
       }
     },
     {
-      "id": "layout1",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "layout2",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "history",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "totalisator",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "phototable",
+      "id": "flowers",
       "status": {
         "pc_1": 521,
         "pj_1": 520
       }
     },
     {
-      "id": "horses",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "rysack1",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "rysack2",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "names",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "winners",
+      "id": "akilay",
       "status": {
         "pc_1": 521,
         "pj_1": 520
       }
     },
     {
-      "id": "triplets",
-      "innerZones": [
-        {
-          "id": "triplet1",
-          "status": {
-            "pc_1": 521
-          }
-        },
-        {
-          "id": "triplet2",
-          "status": {
-            "pc_1": 521
-          }
-        },
-        {
-          "id": "triplet3",
-          "status": {
-            "pc_1": 521
-          }
-        }
-      ]
-    },
-    {
-      "id": "portreit",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "horserider",
+      "id": "pictures",
       "status": {
         "pc_1": 521,
-        "pj_1": 520
+        "pj_1": 520,
+        "pj_2": 520,
+        "pj_3": 520,
+        "pj_4": 520
       }
     },
     {
-      "id": "profession",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "budenniy",
-      "status": {
-        "pc_1": 521
-      }
-    },
-    {
-      "id": "book",
+      "id": "waves",
       "status": {
         "pc_1": 521,
-        "pj_1": 520
+        "pj_1": 520,
+        "pj_2": 520,
+        "pj_3": 520,
+        "pj_4": 520
       }
     }
   ]
