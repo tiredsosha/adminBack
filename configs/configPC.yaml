@@ -44,8 +44,8 @@ drones:
   ip: 10.1.4.21
   mac: 74:56:3C:56:82:2C
 blackBook:
-  ip: 10.1.4.21
-  mac: 74:56:3C:56:82:2C
+  ip: 10.1.4.22
+  mac: FC:9D:05:30:1E:58
 connections:
   ip: 10.1.5.21
   mac: 74:56:3C:48:EA:D3
@@ -84,40 +84,40 @@ interview1:
   mac: 74:56:3C:48:E9:C9
 interview2:
   ip: 10.1.8.22
-  mac: FC:9D:05:9D:02:6A
+  mac: 9C:6B:00:40:19:F9
 interview3:
   ip: 10.1.8.23
-  mac: FC:9D:05:9D:02:29
+  mac: 9C:6B:00:40:1A:35
 interview4:
   ip: 10.1.8.24
-  mac: FC:9D:05:9D:0A:21
+  mac: 9C:6B:00:40:19:E9
 interview5:
   ip: 10.1.8.25
-  mac: FC:9D:05:9D:09:2F
+  mac: 9C:6B:00:40:19:D6
 interview6:
   ip: 10.1.8.26
-  mac: FC:9D:05:9D:09:3A
+  mac: 9C:6B:00:40:1A:09
 interview7:
   ip: 10.1.8.27
-  mac: FC:9D:05:9D:00:F1
+  mac: 9C:6B:00:40:1A:5F
 interview8:
   ip: 10.1.8.28
-  mac: FC:9D:05:9D:09:3C
+  mac: 9C:6B:00:40:1A:02
 interview9:
   ip: 10.1.8.29
-  mac: FC:9D:05:9D:09:3D
+  mac: 9C:6B:00:40:1A:1F
 interview10:
   ip: 10.1.8.30
-  mac: FC:9D:05:9D:09:3E
+  mac: 9C:6B:00:40:19:FE
 interview11:
   ip: 10.1.8.31
   mac: FC:9D:05:9D:0D:05
 interview12:
   ip: 10.1.8.32
-  mac: FC:9D:05:9D:02:1A
+  mac: 9C:6B:00:40:1A:60
 interview13:
   ip: 10.1.8.33
-  mac: FC:9D:05:9D:09:41
+  mac: 9C:68:00:40:19:E4
 medal1:
   ip: 10.1.8.34
   mac: 74:56:3C:48:EA:38
