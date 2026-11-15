@@ -1,18 +1,18 @@
 immersive:
   ip: 10.1.0.50
-  mac:
+  mac: 34:5A:60:34:45:22
 corridor:
   ip: 10.1.0.52
   mac: 34:5A:60:C2:5A:91
 flowers:
   ip: 10.1.0.189
-  mac:
+  mac: 60:CF:84:A4:3A:21
 akilay:
   ip: 10.1.0.51
   mac: D8:BB:C1:51:E2:F2
 pictures:
   ip: 10.1.0.191
-  mac:
+  mac: 34:5A:60:B1:E6:CA
 waves:
-  ip: 10.1.0.193
-  mac:
+  ip: 10.1.1.190
+  mac: 34:5A:60:B1:E6:C6
